@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: C++ | Bioops]]></title>
+  <link href="http://bioops.info/category/c-plus-plus/atom.xml" rel="self"/>
+  <link href="http://bioops.info/"/>
+  <updated>2019-09-07T17:54:14-04:00</updated>
+  <id>http://bioops.info/</id>
+  <author>
+    <name><![CDATA[Bioops]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[C++ Hello World]]></title>
+    <link href="http://bioops.info/2011/11/c-hello-world/"/>
+    <updated>2011-11-13T00:00:00-05:00</updated>
+    <id>http://bioops.info/2011/11/c-hello-world</id>
+    <content type="html"><![CDATA[<p>write in file &#8220;hello.cpp&#8221;:</p>
+
+<p>&#8220;` cpp hello.cpp</p>
+
+<p>// my first program in C++</p>
+
+<h1 id="include-iostream">include <iostream>;</iostream></h1>
+<p>using namespace std;</p>
+
+<p>int main ()
+{ cout « “Hello World!”;
+return 0;
+}</p>
+
+<p>&#8220;`</p>
+
+<p>compile:
+<pre>g++ -o hello hello.cpp</pre></p>
+]]></content>
+  </entry>
+  
+</feed>
